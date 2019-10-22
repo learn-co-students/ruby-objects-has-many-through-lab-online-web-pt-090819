@@ -12,8 +12,8 @@ class Patient
     @@all
   end
 
-  def new_appointment(date, doctor)
-    Appointment.new(date,doctor,self)
+  def new_appointment(doctor, date)
+    Appointment.new(date, self, doctor)
   end
 
   def appointments
@@ -21,9 +21,9 @@ class Patient
   end
 
   def doctors
-    appointments.map do |doc|
+    appointments.map do |appoint|
       # binding.pry
-      doc.date
+      appoint.doctor
     end
   end
 
