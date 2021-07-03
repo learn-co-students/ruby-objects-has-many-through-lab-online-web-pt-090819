@@ -1,4 +1,5 @@
-# Ruby Object Relations: Has-Many-Through Lab
+                                                                                                   mmn nn][
+                                                                                                   \'./"# Ruby Object Relations: Has-Many-Through Lab
 
 ## Objectives
 
